@@ -1,0 +1,56 @@
+/**index.wxss**/
+
+/* page {
+  background-color: whitesmoke;
+} */
+
+.login-img {
+  width: 750rpx;
+  height: 1200rpx;
+  background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560694757057&di=2abb2fd3409522dbfbd47aba0792b1ae&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F7d2ff83611b16e78ad3f0e210c2701898e1307f3.jpg');
+  background-size: cover;
+}
+
+/*表单内容*/
+
+.inputView {
+  line-height: 45px;
+}
+
+/*输入框*/
+
+.nameImage, .keyImage {
+  margin-left: 22px;
+  width: 20px;
+  height: 20px;
+}
+
+.loginLabel {
+  margin: 15px 15px 15px 10px;
+  color: brown;
+  font-size: 15px;
+}
+
+.inputText {
+  float: right;
+  text-align: right;
+  margin-right: 22px;
+  margin-top: 11px;
+  font-size: 15px;
+}
+
+.line {
+  height: 0px;
+}
+
+/*按钮*/
+
+.loginBtn {
+  width: 80%;
+  margin-top: 30px;
+}
+
+.goRegistBtn {
+  width: 80%;
+  margin-top: 15px;
+}

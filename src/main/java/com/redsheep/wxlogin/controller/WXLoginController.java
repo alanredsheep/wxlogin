@@ -35,8 +35,9 @@ public class WXLoginController {
 
         String url = "https://api.weixin.qq.com/sns/jscode2session";
         Map<String, String> param = new HashMap<>();
-        param.put("appid", "wxb2e06c25984fa5a4");
-        param.put("secret", "3a62d9b55028c644bacdd8412fada021");
+        //TODO 写入app的id和密钥
+        param.put("appid", "");
+        param.put("secret", "");
         param.put("js_code", code);
         param.put("grant_type", "authorization_code");
 
